@@ -333,13 +333,8 @@
       font-size: 0.95rem; line-height: 1.7; color: #ddd; margin-bottom: 1.5rem;
       position: relative; font-style: italic;
     }
-    .review-quote::before { content: "“"; font-size: 3rem; color: var(--accent-light); opacity: 0.3; position: absolute; left: -0.5rem; top: -0.5rem; }
-    .review-author { display: flex; align-items: center; gap: 1rem; }
-    .review-avatar {
-      width: 48px; height: 48px; border-radius: 50%; background: var(--accent);
-      display: flex; align-items: center; justify-content: center;
-      font-weight: 700; font-size: 1.2rem; color: white; text-transform: uppercase;
-    }
+    .review-quote::before { content: "\201C"; font-size: 3rem; color: var(--accent-light); opacity: 0.3; position: absolute; left: -0.5rem; top: -0.5rem; }
+    .review-author { display: block; }
     .review-info h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.2rem; }
     .review-info p { font-size: 0.7rem; color: var(--accent-light); text-transform: uppercase; letter-spacing: 0.1em; }
 
