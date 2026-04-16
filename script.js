@@ -60,9 +60,9 @@
 
   // Reviews (EASILY EDITABLE ARRAY)
   const reviewsData = [
-    { name: "2022 O/L & 2025 A/L Batch", role: "President's College", quote: "Hexo handled almost everything from promotions to e-ticketing for our batch party. The designs really helped us build hype and reach more students.", avatar: "PC" },
-    { name: "2022 O/L & 2025 A/L Batch", role: "Marapola Maha Vidyalaya", quote: "The work done for our batch party was top quality and the e-ticketing system was very helpful. The posts were clean, engaging, and helped us get strong attention online.", avatar: "MV" },
-    { name: "Nethum S. Liyanage", role: "O/L Maths Tutor", quote: "Got a custom class poster done for my tuition classes, and the design came out clean and eye-catching. It really helped attract more students.", avatar: "NS" }
+    { name: "2022 O/L & 2025 A/L Batch", role: "President's College", quote: "Hexo handled almost everything from promotions to e-ticketing for our batch party. The designs really helped us build hype and reach more students." },
+    { name: "2022 O/L & 2025 A/L Batch", role: "Marapola Maha Vidyalaya", quote: "The work done for our batch party was top quality and the e-ticketing system was very helpful. The posts were clean, engaging, and helped us get strong attention online." },
+    { name: "Nethum S. Liyanage", role: "O/L Maths Tutor", quote: "Got a custom class poster done for my tuition classes, and the design came out clean and eye-catching. It really helped attract more students." }
   ];
 
   const reviewsContainer = document.getElementById('reviewsContainer');
@@ -70,7 +70,6 @@
     <div class="review-card r">
       <div class="review-quote">${r.quote}</div>
       <div class="review-author">
-        <div class="review-avatar">${r.avatar}</div>
         <div class="review-info"><h4>${r.name}</h4><p>${r.role}</p></div>
       </div>
     </div>
